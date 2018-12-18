@@ -16,14 +16,14 @@ p{
 em{
 	font-family:serif;
 }
-p.greentee{
-	color:green;
-}
 p.lightblue{
 	color:lightblue;
 }
 p.blue{
 	color:blue;
+}
+p.greentee{
+	color:green;
 }
 
 

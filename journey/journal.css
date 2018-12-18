@@ -1,0 +1,15 @@
+@font-face{
+	font-family:"cool font";
+	src:url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttl");
+}
+body{
+	font-family:Verdana,Geneva,Arial,sans-serif;
+	font-size:large;
+}
+h1{
+	font-size:220%;
+	font-family:"cool font";
+}
+h2{
+	font-size:120%;
+}
