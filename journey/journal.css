@@ -12,4 +12,14 @@ h1{
 }
 h2{
 	font-size:120%;
+	font-weight:normal;
+}
+blockquote{
+	
+	font-style:italic;
+}
+h1,h2{
+	color:#cc6600;
+	/*text-decoration:underline;*/
+	border-bottom:thin dotted #888888;
 }
