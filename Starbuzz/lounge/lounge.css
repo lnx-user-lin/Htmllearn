@@ -15,3 +15,18 @@ h1{
 h2{
 	font-size:120%;
 }
+p.gurantee{
+	font-family:georgia,"Times New Roman",Times,serif;
+	font-color:#444444;
+	font-style:italic;
+	font-size:1.9em;
+	border-color:black;
+	border-width:1px;
+	border-style:solid;
+	background-color:#a7cece;
+	padding:25px;
+	margin:30px;
+	background-image:url(images/background.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
