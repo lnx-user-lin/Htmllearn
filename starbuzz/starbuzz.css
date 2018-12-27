@@ -15,7 +15,9 @@ body {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
+  margin:           0px 330px 10px 10px;
+  /*width:420px;
+  float:left;*/
 }
 
 #sidebar {
@@ -23,6 +25,7 @@ body {
   font-size:        105%;
   padding:          15px;
   margin:           0px 10px 10px 10px;
+  /*使用float必须在之前设置元素宽度*/
   width:280px;
   float:right;
 }
@@ -34,6 +37,7 @@ body {
   padding:          15px;
   margin:           10px;
   font-size:        90%;
+  clear:right;
 }
 
 h1 {
@@ -57,4 +61,28 @@ a:visited {
   color:            #675c47;
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
+}
+#nana{
+  margin:20px;
+  border-style:dotted;
+  border-color:white;
+  border-width:5px;
+  float:right;
+}
+#allcontent{
+  width:1080px;
+  padding:5px 0px 5px 0px;
+  background-color:#675c47;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+#tohead{
+  /*使用position来放置页面元素*/
+  position:fixed;
+  /*fixed是相对于浏览器页面大小位置,
+  absolute是绝对位置，
+  static是使用流的方式*/
+  right:20%;
+  bottom:10%;
 }
